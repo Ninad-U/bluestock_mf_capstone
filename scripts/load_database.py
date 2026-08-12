@@ -44,7 +44,7 @@ try:
 
     investor_transactions.to_sql("fact_transactions", engine, if_exists="replace", index=False)
 
-    portfolio_holdings.to_sql("fact_portfolio_holdings", engine, if_exists="replace", index=False)
+    portfolio_holdings.to_sql("fact_portfolio", engine, if_exists="replace", index=False)
 
     aum_by_fund_house.to_sql("fact_aum", engine, if_exists="replace", index=False)
 

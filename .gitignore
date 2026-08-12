@@ -1,0 +1,4 @@
+# SQLite database
+data/db/*.db
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
